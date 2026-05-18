@@ -1,0 +1,20 @@
+{
+  "name": "affordmedicals-23csr153",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node vehicle_maintence_scheduler/index.js",
+    "start:scheduler": "node vehicle_maintence_scheduler/index.js",
+    "start:notification": "node notification_app_be/index.js",
+    "start:dev": "node --watch vehicle_maintence_scheduler/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "express": "^5.2.1"
+  }
+}
